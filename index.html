@@ -10,9 +10,9 @@
     <title>Survey website</title>
 </head>
 <body>
-	Survey Form
+	Welcome to Jabier's Survey
 	<div id="form-outer">
-		<p id="description">Let me know how I can improve</p>
+		<p id="description">Tell me about yourself...</p>
 		<form action="https://crossorigin.me/https://freecodecamp.com" id="survey-form" method="get" name="survey-form">
 			<div class="rowTab">
 				<div class="labels">
@@ -40,7 +40,7 @@
 			</div>
 			<div class="rowTab">
 				<div class="labels">
-					<label for="currentPos">Which option best describes your current role?</label>
+					<label for="currentPos">are you a __________?</label>
 				</div>
 				<div class="rightTab">
 					<select class="dropdown" id="dropdown" name="currentPos">
@@ -50,14 +50,14 @@
 						<option value="student">
 							Student
 						</option>
-						<option value="job">
-							Full Time Job
+						<option value="Recruitor">
+							Recruitor
 						</option>
-						<option value="learner">
-							Full Time Learner
+						<option value="direct hire ">
+							Hiring manager
 						</option>
-						<option value="preferNo">
-							Prefer not to say
+						<option value="friend">
+							Friend
 						</option>
 						<option value="other">
 							Other
@@ -65,9 +65,10 @@
 					</select>
 				</div>
 			</div>
+			
 			<div class="rowTab">
 				<div class="labels">
-					<label for="userRating">* How likely is that you would recommend Jabier to a friend?</label>
+					<label for="userRating">* Do you know how to code?</label>
 				</div>
 				<div class="rightTab">
 					<ul style="list-style: none;">
@@ -77,48 +78,65 @@
 					</ul>
 				</div>
 			</div>
+			<!--What is your best coding language?-->
 			<div class="rowTab">
 				<div class="labels">
-					<label for="most-like">What do you like most about coding:</label>
+					<label for="most-like">What is your favorite programing language?:</label>
 				</div>
 				<div class="rightTab">
 					<select class="dropdown" id="most-like" name="mostLike">
 						<option disabled selected value="">
 							Select an option
 						</option>
-						<option value="challenges">
-							Challenges
+						<option value="javascript">
+							javascript
 						</option>
-						<option value="projects">
-							Projects
+						<option value="C">
+							C
 						</option>
-						<option value="community">
-							Community
+						<option value="Java">
+							Java
 						</option>
-						<option value="openSource">
-							Open Source
+						<option value="Ruby">
+							Ruby
+						</option>
+						<option value="html">
+							html
+						</option>
+						<option value="css">
+							css
+						</option>
+						<option value="swift">
+							swift
+						</option>
+						<option value="go">
+							go
+						</option>
+						<option value="other">
+							other
 						</option>
 					</select>
 				</div>
 			</div>
 			<div class="rowTab">
 				<div class="labels">
-					<label for="preferences">Things that should be improved in the future<br>
+					<label for="preferences">Pick a category you are interested in<br>
 					(Check all that apply):</label>
 				</div>
 				<div class="rightTab">
 					<ul id="preferences" style="list-style: none;">
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="1">Front-end Projects</label></li>
-						<li class="checkbox"><input class="userRatings" name="prefer" type="checkbox" value="2">Back-end Projects</li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="1">Website creation</label></li>
+						<li class="checkbox"><input class="userRatings" name="prefer" type="checkbox" value="2">Mobile app development</li>
 						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="3">Data Visualization</label></li>
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="4">Challenges</label></li>
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="5">Open Source Community</label></li>
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="6">Gitter help rooms</label></li>
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="7">Videos</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="4">Solving Challenges</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="5">front end developing</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="6">Video game creation</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="7">UI/UX design</label></li>
 						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="8">City Meetups</label></li>
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="9">Wiki</label></li>
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="10">Forum</label></li>
-						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="10">Additional Courses</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="9">Database programming</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="10">Backend engineering</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="11">Robotics</label></li>
+						<li class="checkbox"><label><input class="userRatings" name="prefer" type="checkbox" value="12">Drone projects</label></li>
 					</ul>
 				</div>
 			</div>
