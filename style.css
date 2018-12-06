@@ -59,11 +59,11 @@ input[type="checkbox"] {
 
 #submit {
   background-color: #59ace0;
-  border-radius: 4px;
+  border-radius: 5px;
   color: white;
   font-size: 1em;
   height: 40px;
-  width: 96px;
+  width: 400px;
   margin: 10px;
 }
 
